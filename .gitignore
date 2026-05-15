@@ -1,0 +1,90 @@
+# Project-specific
+paper.pdf
+run.bash
+
+# Data and outputs
+outputs/
+runs/
+checkpoints/
+checkpoint/
+data/
+logs/
+plot/
+history/
+artifact/
+model_ckpt/
+rank*.log
+
+# Weights & Biases
+wandb/
+temp_wandb_files/
+wandb-metadata.json
+wandb-summary.json
+
+# Claude Code
+CLAUDE.md
+.claude/
+.pypirc.claude/
+
+# IDE
+.vscode
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+MANIFEST
+.installed.cfg
+
+# Build / packaging
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# uv
+.python-version
+config.yaml
