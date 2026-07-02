@@ -88,3 +88,6 @@ venv.bak/
 # uv
 .python-version
 config.yaml
+
+# mac
+.DS_Store
